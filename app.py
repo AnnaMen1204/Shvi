@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 
 from proceccing import get_message
 
-# from proceccing import get_messege
+
 app = Flask(__name__, template_folder='templates')
 
 
@@ -39,5 +39,4 @@ def text():
     return "Text"
 
 
-if __name__ == "__main__":
- app.run()
+
